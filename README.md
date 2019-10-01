@@ -3,3 +3,4 @@
 ## jciturra@uc.cl
 
 - segunda update
+- Segundo commit
