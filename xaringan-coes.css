@@ -31,23 +31,38 @@ h1, h2, h3 {
   font-weight: normal;
   color: #000;
 }
+
+h3 { 
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+
+
+h4 {
+  margin-bottom: 1px; 
+  margin-top: 5px;
+}
+
 .remark-slide-content {
   background-color: #FFF;
   font-size: 20px;
-  
-  
-  
   padding: 1em 4em 1em 4em;
 }
 .remark-slide-content h1 {
     font-size: 55px;
-}
+} 
 .remark-slide-content h2 {
     font-size: 45px;
 }
 .remark-slide-content h3 {
     font-size: 35px;
 }
+
+.remark-slide-content h4 {
+  font-size: 25px;
+
+}
+
 .remark-code, .remark-inline-code {
   font-family: Droid Mono, 'Lucida Console', Monaco, monospace;
 }
@@ -57,8 +72,8 @@ h1, h2, h3 {
 .remark-inline-code {
   font-size: 1em;
   color: #000;
-  
-  
+
+
 }
 .remark-slide-number {
   color: #272822;
@@ -71,7 +86,7 @@ a, a > code {
   text-decoration: none;
 }
 .footnote {
-  
+
   position: absolute;
   bottom: 3em;
   padding-right: 4em;
@@ -82,8 +97,8 @@ a, a > code {
 }
 .inverse {
   background-color: #272822;
-  color: #d6d6d6;
-  
+  color: #f3f3f3;
+
 }
 .inverse h1, .inverse h2, .inverse h3 {
   color: #f3f3f3;
@@ -93,30 +108,33 @@ a, a > code {
 }
 .title-slide {
   background-color: #272822;
-  
-  
-  
+
+
+
 }
 .title-slide .remark-slide-number {
   display: none;
 }
 /* Two-column layout */
 .left-column {
-  width: 20%;
-  height: 92%;
+  width: 50%;
+  height: auto;
   float: left;
 }
+
+.right-column {
+  width: 40%;
+  float: right;
+  padding-top: 1em;
+}
+
 .left-column h2, .left-column h3 {
   color: #777;
 }
 .left-column h2:last-of-type, .left-column h3:last-child {
   color: #000;
 }
-.right-column {
-  width: 75%;
-  float: right;
-  padding-top: 1em;
-}
+
 .pull-left {
   float: left;
   width: 47%;
@@ -130,6 +148,8 @@ a, a > code {
 }
 img, video, iframe {
   max-width: 100%;
+  ;
+
 }
 blockquote {
   border-left: solid 5px lightgray;
@@ -187,7 +207,18 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-position: left;
   background-size: auto;
 }
-.title-slide {
+.title-slide { 
   background-image: url("images/coes-gen.png");
   background-size: cover;
+}
+
+.remark-slide-content h2 {
+    font-size: 30px;
+}
+
+.center2 {
+  margin: 0;
+  text-align: center;
+  top: 55%;
+  left: 50%;
 }
